@@ -12,7 +12,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
-import com.nash12.composeui.screens.RandomizerScreen
+import com.nash12.composeui.screens.Authorisation
 import com.nash12.composeui.ui.theme.ComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -25,14 +25,14 @@ class MainActivity : ComponentActivity() {
             ComposeUITheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
-                    topBar = { CenterAlignedTopAppBar(title = { Text("Randomizer") }) }
+                    topBar = { CenterAlignedTopAppBar(title = { Text("Авторизация") }) }
                 ) { innerPadding ->
                     Column(
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
-                        RandomizerScreen()
+                        Authorisation()
                     }
                 }
 

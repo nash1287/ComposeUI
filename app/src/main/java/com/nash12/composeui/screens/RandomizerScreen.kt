@@ -22,7 +22,7 @@ fun RandomizerScreen() {
     Box(
         modifier = Modifier
             .padding()
-            .fillMaxSize(),
+            .fillMaxSize()
     ) {
         Text(
             "$randomeNumber",
