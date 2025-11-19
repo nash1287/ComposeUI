@@ -75,7 +75,7 @@ fun Authorisation() {
         }
         if (showCheckIcon) {
             Column (
-                horizontalAlignment = Alignment.CenterHorizontally
+
             ){
             Spacer(modifier = Modifier.size(260.dp))
             Icon(
